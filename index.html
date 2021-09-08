@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Resume
+    </title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resume.css">
+        <script src="https://kit.fontawesome.com/49dbb41f0f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body data-spy="scroll" data-target=".navbar">
+        <!-- Header consist of navigation bar-->
+        <header>
+            <!-- Navigation bar has unorderd list-->
+            <nav class="navbar navbar-expand-md bg-transparent">    
+                <div class="collapse navbar-collapse" id="collapseable-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <!-- Link to respective sections-->
+                            <a class="nav-link text-muted" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Link to respective sections-->
+                            <a class="nav-link text-muted" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Link to respective sections-->
+                            <a class="nav-link text-muted" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Link to respective sections-->
+                            <a class="nav-link text-muted" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        <!-- Body is divided in 4 sections-->
+        <!-- sections 1 starts -->
+        <section id="home">
+            <div id="intro">
+                <div>  <h1 class="text-white d-flex justify-content-center">Hi, I am Tanisha</h1></div>
+                <div><h6 class="text-muted d-flex justify-content-center">Full-Stack Web developer</h6><div>
+                    <!-- Animated arrow starts -->
+                <a href="#about"> <div class="indicator mx-auto" id="down-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>                    
+                </div>  </a>
+                <!-- Animated arrow ends -->
+            </div>
+        </section>
+        <!-- sections 1 ends-->
+
+        <!-- sections 2 starts -->
+        <section id="about">
+            <div class="d-flex justify-content-center my-auto mx-auto row align-items-center h-100 p-2" id="aboutme">
+                <div>
+                    <span class="d-flex justify-content-start">
+                        <h3 class="text-white">About me</h3>
+                    </span><br>
+                    <div id="photo"><img src="images/pic.jpg" class="img-thumbnail rounded float-right" alt="image" width="200px" height="200px"></div>
+                    <!--Paragraph starts -->
+                    <p class="text-muted">Hello! My name is Tanisha and I enjoy creating things that live on the internet. 
+                        My interest in web development started recently when I decided to join Newton School turns out 
+                        interesting part of web designing is not just limited to HTML and CSS there is a lot more to it!
+                    </p>
+                    <p class="text-muted">I also recently launched a website that covers some really interesting features using Node & React.
+                        I love exploring Photoshop.
+                    </p> 
+                    <p class="text-muted">
+                        Here are a few technologies I've been working with recently:
+                        <ul class="text-muted">
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>HTML 5</li>
+                            <li>CSS</li>
+                        </ul>
+                    </p>
+                    <!--Paragraph ends -->
+                    <div><a href="pdf/Resume.pdf" target="_blank"><button type="button" class="btn btn-warning">Download my Resume</button></a></div>
+                    <a href="#projects"> <div class="indicator mx-auto">
+                        <!-- Animated arrow starts -->
+                        <span></span>
+                        <span></span>
+                        <span></span>                    
+                    </div> </a>
+                    <!-- Animated arrow starts -->
+                </div>
+                
+            </div>
+            
+        </div>
+        </section>
+        <!-- sections 2 ends-->
+
+        <!-- sections 3 starts -->
+        <section id="projects">
+            <!-- Bootstarp cards start -->
+                <div class="container row align-items-center h-100 mx-auto">
+                    <div class="card-deck">
+                        <div class="card shadow ">
+                            <div class="inner">
+                                <img class="card-img-top" src="images/p4.png" alt="Card image">
+                            </div>
+                          
+                          <div class="card-body text-center">
+                            <h5 class="card-title">Parallax Website</h5>
+                            <p class="card-text">This website consist of various feautures. 
+                                Technology used in this website are HTML 5, CSS, Bootstrap, Javascript.
+                            </p>
+                                <a href="#" class="btn btn-success ">Visit Website</a>
+                          </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="inner">
+                                <img class="card-img-top" src="images/p2.png" alt="Card image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Photography Website</h5>
+                                <p class="card-text">This website consist of various feautures. 
+                                    Technology used in this website are HTML 5, CSS, Bootstrap, Javascript.
+                                </p>
+                                <a href="#" class="btn btn-success ">Visit Website</a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="inner">
+                                <img class="card-img-top" src="images/p3.jpg" alt="Card image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Service provider Company</h5>
+                                <p class="card-text">This website consist of various feautures. 
+                                    Technology used in this website are HTML 5, CSS, Bootstrap, Javascript.
+                                </p>
+                                <a href="#" class="btn btn-success ">Visit Website</a>
+                          </div>
+                        </div>
+                      </div>                
+                      </div>
+                      <!-- Bootstarp cards ends -->
+                      
+            </section>
+        <!-- sections 3 ends-->
+
+        <!-- sections 4 starts -->
+        <section id="contact">
+            <div class="container mx-auto row align-items-center h-100">
+                <div class="card "style="width: 70rem;">
+                    <div class="card-header text-white" id="card-header">My contact details</div>
+                    <div class="card-body">
+                        <h3 class="card-title text-dark">Get In Touch</h3>
+                        
+                                <div class="d-flex flex-row">
+                                    <a href="https://wa.me/919999398881" target="_blank" class="text-decoration-none"><div class="p-2" id="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div></a>
+                                    <!-- Icons taken from fontawesome site directly-->
+                                    <div class="text-dark p-2">Either ping me at - 
+                                        <!-- Number is linked to whatsapp web direct link-->
+                                        <a href="https://wa.me/919999398881" class="text-muted text-decoration-none text-link">9999398881</a></div>
+                                </div>
+                                <br>
+                                <div class="d-flex flex-row">
+                                    <a href="https://www.linkedin.com/in/tanisha-c-8898a199/" target="_blank" class="text-decoration-none"><div class="p-2" id="icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div></a>
+                                    <!-- Icons taken from fontawesome site directly-->
+                                    <div class="text-dark p-2"> Check out my 
+                                        <!-- linked profile-->
+                                        <a href="https://www.linkedin.com/in/tanisha-c-8898a199/" class="text-muted text-decoration-none text-link">linkedin Profile</a></div>
+                                </div>
+                                <br>
+                                <div class="d-flex flex-row">
+                                    <a href="https://github.com/tanisha2308" target="_blank" class="text-decoration-none"><div class="p-2" id="icon"><i class="fab fa-github" aria-hidden="true"></i></div></a>
+                                    <!-- Icons taken from fontawesome site directly-->
+                                    <div class="text-dark p-2"> Check out my 
+                                        <!-- linked to profile-->
+                                        <a href="https://github.com/tanisha2308" class="text-muted text-decoration-none text-link">Github</a></div>
+                                </div>
+                                <br>
+                                <div class="d-flex flex-row">
+                                    <!-- Icons taken from fontawesome site directly-->
+                                    <a href="mailto:tanishachaudhary2308@gmail.com" class="text-decoration-none"><div class="p-2" id="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div></a>
+                                    <div class="text-dark p-2"> Or send me an Email - 
+                                        <a href="mailto:tanishachaudhary2308@gmail.com" class="text-muted text-decoration-none text-link">tanishachaudhary2308@gmail.com</a></div>
+                                </div><br>
+                                <div class="d-flex flex-row">
+                                    <!-- Icons taken from fontawesome site directly-->
+                                    <div class="p-2" id="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
+                                    <div class="text-dark p-2"> 
+                                        You can find me at - House no. 546,Turab Nagar, Ghaziabad, Uttar Pradesh. Pin code- 201001</div>
+                                </div><br>                           
+                    </div>
+                   </div>
+               </div>
+       </section>
+        <!-- sections 4 ends-->
+       </body>
+</html>
